@@ -28,14 +28,18 @@ by Francisco Javier González del Solar
    python manage.py runserver
    ```
 
+#### How to run the tests
+
+1. In your root directory, run the tests of the project:
+
+   ```
+   python manage.py test -v 3
+   ```
+
 ## NOTES
 
-This is a Django project to consume the EasyBrokerAPI as a part of a technical test. The basic goal is to create a Property List page that consumes data from the api and displays upto fifteen properties. Also there should be functional pagination to retrieve bunchs of data at a time.
+This is a Django project to consume the EasyBrokerAPI as a part of a technical test. The basic goal is to create a Property List page that consumes data from the api and displays upto fifteen properties. Also there should be functional pagination to retrieve bunchs of data at a time. In addition, a basic Detail View was created to test redirections and a different data call from the api.
 
-This is a much shorter project than the Angular version of this test, given the time constraints.
+For styling, it is being used the Bootstrap framework with some basic customization.
 
-#### Things I'd like t
-
-- Better error handling
-
-- Carousel is not working properly
+There is some basic testing for the api call as well as the list view. Although, there is not much coverage.
