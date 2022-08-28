@@ -43,3 +43,7 @@ This is a Django project to consume the EasyBrokerAPI as a part of a technical t
 For styling, it is being used the Bootstrap framework with some basic customization.
 
 There is some basic testing for the api call as well as the list view. Although, there is not much coverage.
+
+
+https://user-images.githubusercontent.com/54779433/187082448-19ab5189-13b8-46b7-95b6-df7e311118a1.mp4
+
